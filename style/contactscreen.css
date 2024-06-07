@@ -1,0 +1,149 @@
+.contactscreen {
+    background-image: url(../image/Background2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.contactscreen::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: #2F324B;
+    opacity: .80;
+}
+
+.contactscreen__title {
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    color: var(--white-color);
+    padding-top: 70px;
+    margin-bottom: 17px;
+}
+
+.contactscreen__subtitle {
+    font-weight: 500;
+    font-size: 22px;
+    text-align: center;
+    color: var(--white-color);
+    margin-bottom: 50px;
+}
+
+.contactscreen__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contactscreen__form-fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+    width: 423px;
+    margin: 0 auto;
+}
+
+.contactscreen__form-fieldset:not(:last-child) {
+    gap: 21px;
+}
+
+.contactscreen__form-fieldset-input {
+    width: 100%;
+    height: 44px;
+    background-color: transparent;
+    border: 1.38px solid var(--white-color);
+    border-radius: 50px;
+    opacity: .5;
+}
+
+.contactscreen__form-fieldset-input::placeholder {
+    font-weight: 400;
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.5);
+    padding-left: 25px;
+    padding-top: 9px;
+}
+
+.contactscreen__form-fieldset-input-email {
+    width: 100%;
+    height: 44px;
+    background-color: transparent;
+    border: 1.38px solid var(--white-color);
+    border-radius: 50px;
+    opacity: .5;
+    margin-bottom: 50px;
+}
+
+.contactscreen__form-fieldset-input-email::placeholder {
+    font-weight: 400;
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.5);
+    padding-left: 25px;
+    padding-top: 9px;
+}
+
+.contactscreen__form-fieldset-btn {
+    display: block;
+    margin: 0 auto;
+    width: 218px;
+    height: 48px;
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    color: var(--white-color);
+    margin-bottom: 50px;
+    background-color: var(--blue-color);
+    box-shadow: 0 4px 25px 0 rgba(21, 169, 203, 0.3);
+}
+
+.contactscreen__form-fieldset-personal {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: var(--white-color);
+    padding-bottom: 70px;
+}
+
+.contactscreen__form-fieldset-personal-link {
+    color: var(--blue-color);
+    border-bottom: 1px solid var(--blue-color);
+}
+
+@media (max-width: 700px) {
+    .contactscreen__title {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .contactscreen__subtitle {
+        font-size: 12px;
+        margin-bottom: 35px;
+    }
+
+    .contactscreen__form-fieldset-personal {
+        font-size: 11px;
+        padding-bottom: 30px;
+    }
+
+    .contactscreen__form-fieldset-input::placeholder {
+        font-size: 14px;
+        padding-left: 15px;
+        padding-top: 6px;
+    }
+
+    .contactscreen__form-fieldset-input-email ::placeholder {
+        font-size: 14px;
+        padding-left: 15px;
+        padding-top: 6px;
+    }
+
+    .contactscreen__form-fieldset-btn {
+        width: 174px;
+        height: 38px;
+        font-weight: 500;
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+}

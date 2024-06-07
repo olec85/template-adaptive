@@ -1,0 +1,87 @@
+html {
+    box-sizing: border-box;
+    position: relative;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+body {
+    /* width: 1240px;
+    margin: 0 auto;добавив это и следущую строку мы делаем сайт не адаптивным но тоже неплохо смотрящимся */
+    min-width: 320px;
+    min-height: 100vh;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: var(--background-color);
+    color: var(--white-color);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+blockquote {
+    margin: 0;
+    padding: 0;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+h1, h2, h3, p, figcaption, fieldset {
+    margin: 0;
+}
+
+.visually-hidden {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0 !important;
+    border: 0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
+}/*стили чтоб скрыть заголовок но читалки чтоб видели его*/
+
+button {
+    padding: 0;
+    margin: 0;
+}
+
+fieldset {
+    border: none;
+}
+
+@media (max-width: 500px) {
+    .container {
+        max-width: 290px;
+    }
+}
