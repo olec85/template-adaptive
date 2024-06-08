@@ -81,10 +81,10 @@ button {
 fieldset {
     border: none;
 }
-
-section:not(:last-child) {
-    padding-bottom: 70px;
-}
+/* 
+section:not(:first-child) {
+    padding: 70px 0;
+} */
 
 @media (max-width: 500px) {
     .container {
