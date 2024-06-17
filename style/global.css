@@ -7,6 +7,54 @@ html {
     box-sizing: inherit;
 }
 
+/* @font-face {
+    font-family: "Helvetica Neue Cyr";
+    src: local("HelveticaNeueCyr-Light"), url(../fonts/HelveticaNeueCyr-Light.woff2) format("woff2"),
+        url(../fonts/HelveticaNeueCyr-Light.woff) format("woff");
+    font-weight: 300;
+    font-display: auto;
+}
+
+@font-face {
+    font-family: "Helvetica Neue Cyr";
+    src: local("HelveticaNeueCyr-Roman"), url(../fonts//HelveticaNeueCyr-Roman.woff2) format("woff2"),
+        url(../fonts/HelveticaNeueCyr-Roman.woff) format("woff");
+    font-weight: 400;
+    font-display: auto;
+}
+
+@font-face {
+    font-family: "Helvetica Neue Cyr";
+    src: local("HelveticaNeueCyr-Medium"), url(../fonts//HelveticaNeueCyr-Medium.woff2) format("woff2"),
+        url(../fonts/HelveticaNeueCyr-Medium.woff) format("woff");
+    font-weight: 500;
+    font-display: auto;
+}
+
+@font-face {
+    font-family: "Comfortaa";
+    src: local("Comfortaa"), url(../fonts//Comfortaa-Regular.woff2) format("woff2"),
+        url(../fonts/Comfortaa-Regular.woff) format("woff");
+    font-weight: 400;
+    font-display: auto;
+}
+
+@font-face {
+    font-family: "Helvetica Neue Cyr";
+    src: local("HelveticaNeueCyr-Medium"), url(../fonts//HelveticaNeueCyr-Medium.woff2) format("woff2"),
+        url(../fonts/HelveticaNeueCyr-Medium.woff) format("woff");
+    font-weight: 500;
+    font-display: auto;
+}
+
+@font-face {
+    font-family: "Comfortaa";
+    src: local("Comfortaa"), url(../fonts//Comfortaa-Regular.woff2) format("woff2"),
+        url(../fonts/Comfortaa-Regular.woff) format("woff");
+    font-weight: 400;
+    font-display: auto;
+} */
+
 body {
     /* width: 1240px;
     margin: 0 auto;добавив это и следущую строку мы делаем сайт не адаптивным но тоже неплохо смотрящимся */
@@ -20,9 +68,9 @@ body {
 }
 
 .container {
-    max-width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
+    max-width: 1240px;
+    padding-left: 20px;
+    padding-right: 20px;
     margin: 0 auto;
 }
 

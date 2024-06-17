@@ -24,7 +24,7 @@
 }
 
 .header__container-contacts-number {
-    font-size: 23px;
+    font-size: 23.85px;
     text-align: center;
     color: var(--white-color);
     margin-bottom: 4px;
@@ -34,7 +34,6 @@
 .header__container-contacts-btn {
     color: var(--white-color);
     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-    width: 130px;
     text-align: center;
     z-index: 5;
 }
