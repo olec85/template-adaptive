@@ -156,6 +156,7 @@
     .advantages__tekst {
         font-weight: 400;
         font-size: 16px;
+        width: 100%;
     }
     /* .advantages__list-item img {
         width: 104px;
